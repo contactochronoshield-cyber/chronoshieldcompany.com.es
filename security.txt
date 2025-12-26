@@ -1,0 +1,6 @@
+Contact: mailto:security@chronoshield.company
+Encryption: https://chronoshield.company/pgp.asc
+Acknowledgments: https://chronoshield.company/verify.html
+Policy: https://chronoshield.company/security-policy
+Preferred-Languages: en, es
+Canonical: https://chronoshield.company/.well-known/security.txt
