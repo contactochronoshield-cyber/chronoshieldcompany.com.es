@@ -1,0 +1,10 @@
+Chrono Shield Networks exists to protect digital sovereignty,
+cryptographic integrity, and secure communications in an
+increasingly hostile digital world.
+
+We reject unverifiable claims.
+We rely on cryptographic proof.
+We operate under principles of trust minimization.
+
+This document is cryptographically signed.
+gpg --sign manifesto.txt
