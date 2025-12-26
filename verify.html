@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verification | Chrono Shield Networks</title>
+
+<style>
+body {
+  background:#0b0e13;
+  color:#e6e9ef;
+  font-family:system-ui, sans-serif;
+  line-height:1.6;
+  padding:2rem;
+}
+main {
+  max-width:900px;
+  margin:auto;
+}
+h1, h2 {
+  color:#5f8cff;
+}
+pre {
+  background:#121622;
+  border:1px solid #1e2333;
+  padding:1.2rem;
+  border-radius:10px;
+  overflow-x:auto;
+  margin-top:1rem;
+}
+a {
+  color:#5f8cff;
+}
+</style>
+</head>
+
+<body>
+<main>
+
+<h1>Cryptographic Verification</h1>
+
+<p>
+Chrono Shield Networks operates under a sovereign cryptographic identity.
+All official communications, manifests, and statements can be independently verified.
+</p>
+
+<h2>Primary PGP Identity</h2>
+
+<pre>
+pub   ed25519 2025-12-25 [SC]
+      2B08 7BC5 4355 4B3B AA0F EF49 D601 764D E11B B8BF
+uid   Chrono Shield Networks (Sovereign Cryptographic Identity)
+      &lt;security@chronoshield.company&gt;
+sub   cv25519 2025-12-25 [E]
+</pre>
+
+<h2>Fingerprint</h2>
+<pre>
+2B08 7BC5 4355 4B3B AA0F EF49 D601 764D E11B B8BF
+</pre>
+
+<h2>Verification Example</h2>
+
+<pre>
+$ gpg --verify manifesto.txt.gpg
+
+gpg: Signature made Thu Dec 25 13:48:21 2025 -05
+gpg:                using EDDSA key
+gpg: Good signature from
+"Chrono Shield Networks (Sovereign Cryptographic Identity)"
+&lt;security@chronoshield.company&gt;
+</pre>
+
+<p>
+<a href="/pgp.asc">Download PGP Public Key</a>
+</p>
+
+<p>
+<a href="/">← Back to main site</a>
+</p>
+
+</main>
+</body>
+</html>
+
